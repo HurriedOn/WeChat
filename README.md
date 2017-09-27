@@ -18,3 +18,25 @@ https://mp.weixin.qq.com/debug/wxadoc/dev/devtools/download.html
 
 ## 项目结构
 [![cover](images/pro.png)](images/pro.png)
+
+总体结构：2个根目录（pages、utils）and 3个根文件（app.js、app.json、app.wxss）
+
+（1）、 程序配置文件：固定不变
+
+  app.js：小程序的逻辑文件，用来监听并处理小程序的生命周期函数，全局变量等
+  
+  app.json：主配置文件，对整个小程序的全局配置，配置小程序的页面组成，窗口背景，导航条样式等，不能添加任何注释
+  
+  app.wxss：整个小程序公共样式表，可根据需要修改或不使用
+  
+（2）、程序页面文件：根据需要增加
+
+index.js：小程序的主页面，启动后首先执行
+
+index.wxml：布局页面相当于html页面
+
+index.wxss：样式表，决定wxml页面显示效果
+
+logs.json：当前页面配置文件，只能配置windows配置项，以决定当前页面的表现
+
+
