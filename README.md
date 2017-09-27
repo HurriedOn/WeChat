@@ -10,5 +10,5 @@ WeChat small program
    * 存储方面：小程序用storage代替了HTML5中的localstorage、sessionstorage等。
    * 支付方面：微信支付路径不再受限制。
 * 不足之处
-   * 每个页面都需要手动在app.json中注册。
-   * 代开页面有5个限制。
+   * 每个页面都需要手动在app.json中注册。
+   * 打开页面有5个限制。
