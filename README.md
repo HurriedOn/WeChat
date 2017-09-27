@@ -3,8 +3,7 @@ WeChat small program
 
 ## 微信小程序与HTML5比较
 * 相同点
-
-  * 轻松跨平台。
+ * 轻松跨平台。
   
 * 不同点
 
