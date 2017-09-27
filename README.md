@@ -16,4 +16,5 @@ https://mp.weixin.qq.com/debug/wxadoc/dev/devtools/download.html
   * 每个页面都需要手动在app.json中注册。
   * 打开页面有5个限制。
 
-
+## 项目结构
+-[![cover](images/pro.png)](images/pro.png)
